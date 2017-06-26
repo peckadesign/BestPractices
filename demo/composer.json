@@ -1,0 +1,24 @@
+{
+    "name": "pd/bp-demo",
+    "description": "Ukázkový projekt pro sbírku Best Practices",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Milan Pála",
+            "email": "milan.pala@peckadesign.cz"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "files": [
+            "src/function.php"
+        ]
+    },
+    "require": {
+        "php": "^7.1.0"
+    },
+    "require-dev": {
+        "nette/tester": "1.7.*",
+        "pd/coding-standard": "1.7.*"
+    }
+}
