@@ -1,0 +1,13 @@
+{
+    "name": "pd/bp-docblocks",
+    "description": "PD Best practices: DocBlocks",
+    "type": "project",
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.1.0"
+    },
+    "require-dev": {
+        "nette/tester": "1.7.*",
+        "pd/coding-standard": "1.7.*"
+    }
+}
