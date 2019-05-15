@@ -1,0 +1,14 @@
+{
+    "name": "pd/bp-user-identity",
+    "license": "proprietary",
+    "description": "PD Best practices: Předávání uživatelovi identity",
+    "type": "project",
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.1.0"
+    },
+    "require-dev": {
+        "nette/tester": "1.7.*",
+        "pd/coding-standard": "1.7.*"
+    }
+}
