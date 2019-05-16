@@ -1,0 +1,7 @@
+userIdentityDependentService:
+	factory: Base\Service\UserIdentityDependentService
+	arguments:
+		useriIdentity: @Nette\Security\IUserStorage::getIdentity()
+
+loginStateDependentService:
+	factory: Base\Services\LoginStateDependentService
